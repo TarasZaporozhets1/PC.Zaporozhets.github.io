@@ -376,14 +376,14 @@ hr {
     width:80%;
     justify-content: space-between;
   }
-  .location {
+  .location  {
     display:flex;
     border:2px solid black;
     color:white;
     text-align: center;
+    text-decoration: none;
   }
-
- .location a {
+  .location a {
     color:white;
     text-align: center;
     text-decoration: none;
