@@ -6,4 +6,5 @@ Disallow: /img
 User-agent: Googlebot
 Allow: /
 
+Sitemap:https://taraszaporozhets1.github.io/PC.Zaporozhets.github.io/sitemaps.xml
 
