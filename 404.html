@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - 404</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .navigation {
+        display: flex;
+        border:2px solid black;
+        height:25vh;
+        }
+
+        .navigation  {
+        display: flex;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+         font-size: 20px;
+        align-items:center;
+        }
+        .logo {
+        display:flex;
+        border:2px solid black;
+         width: 30%;
+         }
+
+        .logo img {
+         width: 70%;
+         height: 35%;
+         margin-left:10% ;
+            }
+        .ser {
+        display:flex;
+        justify-content: center;
+         border:2px solid black;
+         width: 50%;
+        }
+        .ser a {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        color:white;
+        margin-right:50px;
+        text-decoration: none;
+        }
+        .contact-modal {
+position: fixed;
+top:0;
+Left:0;
+width: 100%; 
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7); 
+display: none;
+justify-content: center; 
+align-items: center;
+}
+.contact-modal label.close-button {
+position: absolute;
+top: 10px; right: 10px;
+cursor: pointer;
+ font-size: 24px;
+color: #fff;
+}
+
+.contact-toggle:checked ~ .contact-modal {
+display: fLex;
+}
+
+.contact-form {
+background-color: #fff; 
+padding: 20px; 
+border-radius: 5px;
+max-width: 400px; 
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+display: block;
+ margin-bottom: 10px;
+}
+.contact-form input,
+.contact-form textarea
+{
+width: calc(100% - 20px); 
+padding: 8px;
+border: 1px solid #ccc;
+border-radius : 3px;
+}
+
+.contact-form button {
+background-color: #000;
+color: #fff; 
+border: none;
+padding: 10px 20px; 
+border-radius: 3px; 
+cursor: pointer;
+transition: background-color 0.35, color 0.35;
+}
+.contact-form button:hover {
+background-color: #000;
+}
+.contact-toggle {
+    position: absolute;
+    left: -9999px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 25px;
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       <nav>
+     </div>
+         <div class="navigation">
+           <div class="logo">
+               <img alt="Лого" src="img/barbaresco.webp">
+            </div>
+            <div class="ser">
+              <a  href="#section1">Послуги</a>
+              <a  href="#section2">Ціни</a>
+              <a  href="#section3">Стиль</a>
+              <a  href="#section4">Досвід</a>
+            </div>
+
+                 <input type="checkbox" id="contact-toggle" class="contact-toggle">
+                <label class="button contact-button" for="contact-toggle">feedback</label>
+                <div class="contact-modal" id="contact-modal">
+    <label for="contact-toggle" class="close-button"> x </label>
+    <div class="contact-form">
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+</div>
+    </div>
+      </nav>
+    <h1>404</h1>
+    <p>Упс щось пішло не так(</p>
+    <p><a href="https://taraszaporozhets1.github.io/PC.Zaporozhets.github.io/">Повертайся на головну сторінку</a></p>
+</body>
+</html>
